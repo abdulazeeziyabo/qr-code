@@ -1,0 +1,72 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Outfit', sans-serif;
+--white--: hsl(0, 0%, 100%); 
+  --light-gray--: hsl(212, 45%, 89%);
+  --grayish-blue--: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+body{
+ background-color: var(--light-gray--);
+}
+.container{
+ max-width: 400px;
+ height: 550px;
+position: relative;
+background-color: var(--white--);
+border-radius: 16px;
+margin: 0 auto;
+top: 20px;
+bottom: 20px;
+}
+
+img{
+ position: absolute;
+top: 16px;
+left: 24px;
+border-radius: 8px;
+ 
+}
+.skills{
+ padding-top: 380px;
+ padding-left: 16px;
+ padding-right: 16px;
+ font-size: 1.25rem;
+ font-weight: 700;
+ text-align: center;
+ margin-left: 8px;
+ /* width: 280px; */
+}
+.scan{
+ padding-left: 40px;
+ padding-right: 32px;
+ margin-top: 16px;
+ font-weight: 300;
+ color: var(--grayish-blue--);
+ text-align: center;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.attribution {
+ margin: 40px;
+ font-size: 11px;
+ text-align: center;
+}
+
+.attribution a {
+ color: hsl(228, 45%, 44%);
+}
